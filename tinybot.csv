@@ -1,0 +1,14 @@
+Part,Value,Device
+C1,4.7 uf,Ceramic capacitor
+C2,1 uf,Ceramic capacitor
+C3,4.7 uf,Ceramic capacitor
+Q1,DMP1045U,P Channel MOSFET
+Q2,2N7002PW,N Channel MOSFET
+Q3,2N7002PW,N Channel MOSFET
+R1,100K,Resistor
+R2,470 ohm,Resistor
+R3,2K,Resistor
+RED,,LED3MM
+Keystone 1068,,Coin cell holder
+U1,MCP73831,MCP73831 charge controller
+U2,,DIP socket for Attiny 85

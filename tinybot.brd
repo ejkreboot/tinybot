@@ -206,7 +206,7 @@
 <wire x1="22.225" y1="13.97" x2="23.495" y2="15.24" width="0.254" layer="21" curve="-90"/>
 <wire x1="23.495" y1="15.24" x2="31.115" y2="15.24" width="0.254" layer="21"/>
 <wire x1="31.115" y1="15.24" x2="32.385" y2="13.97" width="0.254" layer="21" curve="-90"/>
-<text x="17.4625" y="5.715" size="0.8128" layer="21" font="vector" rot="R90">ATTINY</text>
+<text x="17.4625" y="5.715" size="0.8128" layer="21" font="vector" rot="R90">SOCKET</text>
 <text x="13.6525" y="34.6075" size="1.27" layer="21" font="vector">MOTORS</text>
 <text x="1.905" y="24.13" size="1.016" layer="21" font="vector">Q1</text>
 <text x="23.749" y="26.2255" size="1.016" layer="21" font="vector" rot="R90">R1</text>
