@@ -8040,8 +8040,6 @@ FQP27P06 -
 <part name="C1" library="rcl" deviceset="C-US" device="025-025X050" value="4.7 uf"/>
 <part name="GND12" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C2" library="rcl" deviceset="C-US" device="025-025X050" value="1 uf"/>
-<part name="SUPPLY5" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
-<part name="SUPPLY6" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8098,8 +8096,6 @@ FQP27P06 -
 <attribute name="NAME" x="-66.421" y="-16.256" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-69.469" y="-21.59" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY5" gate="G$1" x="27.94" y="-25.4"/>
-<instance part="SUPPLY6" gate="G$1" x="50.8" y="-25.4"/>
 </instances>
 <busses>
 </busses>
@@ -8178,30 +8174,18 @@ FQP27P06 -
 <junction x="-12.7" y="2.54"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="G$1" pin="VBUS"/>
-<wire x1="-106.68" y1="5.08" x2="-96.52" y2="5.08" width="0.1524" layer="91"/>
-<wire x1="-96.52" y1="5.08" x2="-96.52" y2="17.78" width="0.1524" layer="91"/>
-<pinref part="SUPPLY1" gate="G$1" pin="5V"/>
-<wire x1="-96.52" y1="5.08" x2="-96.52" y2="-5.08" width="0.1524" layer="91"/>
-<pinref part="R1" gate="G$1" pin="2"/>
-<junction x="-96.52" y="5.08"/>
-</segment>
-<segment>
 <pinref part="Q1" gate="G$1" pin="G"/>
 <wire x1="-71.12" y1="0" x2="-71.12" y2="17.78" width="0.1524" layer="91"/>
 <pinref part="SUPPLY3" gate="G$1" pin="5V"/>
 </segment>
 <segment>
-<pinref part="LMOT1+" gate="G$1" pin="P"/>
-<wire x1="38.1" y1="-55.88" x2="27.94" y2="-55.88" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="-55.88" x2="27.94" y2="-25.4" width="0.1524" layer="91"/>
-<pinref part="SUPPLY5" gate="G$1" pin="5V"/>
-</segment>
-<segment>
-<pinref part="RMOT+" gate="G$1" pin="P"/>
-<wire x1="58.42" y1="-55.88" x2="50.8" y2="-55.88" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="-55.88" x2="50.8" y2="-25.4" width="0.1524" layer="91"/>
-<pinref part="SUPPLY6" gate="G$1" pin="5V"/>
+<pinref part="SUPPLY1" gate="G$1" pin="5V"/>
+<wire x1="-96.52" y1="17.78" x2="-96.52" y2="5.08" width="0.1524" layer="91"/>
+<pinref part="JP1" gate="G$1" pin="VBUS"/>
+<wire x1="-96.52" y1="5.08" x2="-106.68" y2="5.08" width="0.1524" layer="91"/>
+<pinref part="R1" gate="G$1" pin="2"/>
+<wire x1="-96.52" y1="-5.08" x2="-96.52" y2="5.08" width="0.1524" layer="91"/>
+<junction x="-96.52" y="5.08"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -8301,13 +8285,24 @@ FQP27P06 -
 <segment>
 <pinref part="C2" gate="G$1" pin="2"/>
 <wire x1="-67.31" y1="-19.05" x2="-63.5" y2="-19.05" width="0.1524" layer="91"/>
-<wire x1="-63.5" y1="-19.05" x2="-63.5" y2="-48.26" width="0.1524" layer="91"/>
+<wire x1="-63.5" y1="-19.05" x2="-63.5" y2="-33.02" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="VCC"/>
+<wire x1="-63.5" y1="-33.02" x2="-63.5" y2="-48.26" width="0.1524" layer="91"/>
 <wire x1="-63.5" y1="-48.26" x2="-55.88" y2="-48.26" width="0.1524" layer="91"/>
 <pinref part="Q1" gate="G$1" pin="D"/>
 <wire x1="-66.04" y1="-7.62" x2="-63.5" y2="-7.62" width="0.1524" layer="91"/>
 <wire x1="-63.5" y1="-7.62" x2="-63.5" y2="-19.05" width="0.1524" layer="91"/>
 <junction x="-63.5" y="-19.05"/>
+<pinref part="LMOT1+" gate="G$1" pin="P"/>
+<wire x1="38.1" y1="-55.88" x2="27.94" y2="-55.88" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="-55.88" x2="27.94" y2="-33.02" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="-33.02" x2="-63.5" y2="-33.02" width="0.1524" layer="91"/>
+<junction x="-63.5" y="-33.02"/>
+<pinref part="RMOT+" gate="G$1" pin="P"/>
+<wire x1="58.42" y1="-55.88" x2="50.8" y2="-55.88" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="-55.88" x2="50.8" y2="-33.02" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="-33.02" x2="27.94" y2="-33.02" width="0.1524" layer="91"/>
+<junction x="27.94" y="-33.02"/>
 </segment>
 </net>
 <net name="N$15" class="0">
@@ -8321,12 +8316,6 @@ FQP27P06 -
 </nets>
 </sheet>
 </sheets>
-<errors>
-<approved hash="104,1,-58.42,2.54,U1,VIN,5V,,,"/>
-<approved hash="104,1,-78.74,7.62,U1,VSS,GND,,,"/>
-<approved hash="113,1,-36.83,-2.21827,GREEN,,,,,"/>
-<approved hash="113,1,-24.13,7.29827,RED,,,,,"/>
-</errors>
 </schematic>
 </drawing>
 </eagle>
