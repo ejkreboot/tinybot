@@ -1,1 +1,20 @@
-,,,,,,,,,,Lots of 100 Robots (each),,PCB ID,Quant,Manufacturer Part #,Mouser #,Manufacturer,Description,Each,Total,Source,Shipping,Each,Min,TotalN/A,1,LIR2450,NA,,3.6V 140mAh coin cell,$0.95 ,$0.95 ,Ebay (http://goo.gl/HYa7EU),Free,$0.95 ,10 ,$0.95 1068,1,1068,534-1068,Keystone,Vertical coin cell holder,$1.79 ,$1.79 ,Mouser,*,$1.60 ,100 ,$1.60 N/A,1,TinyBot 0.1,NA,dirtypcbs.com,PCB,$1.40 ,$1.40 ,Dirtypcbs.com,Free,$0.62 ,40 ,$0.62 N/A,1,ATTINY85,556-ATTINY85-20PU,Atmel,Microcontroller,$1.32 ,$1.32 ,Mouser/Digikey/Newark,*,$0.78 ,50 ,$0.78 MOTOR,2,9073,NA,Dowonsol,Pager type motor,$0.83 ,$1.66 ,Aliexpress (http://goo.gl/tIYG5n),Free,$0.64 ,50 ,$1.28 MCP,1,MCP73831,579-MCP73831T-2ACIOT,Microchip,Battery charge controller,$0.60 ,$0.60 ,Mouser/Digikey/Newark,*,$0.42 ,100 ,$0.42 Q1,1,NDS332P,512-NDS332P,Fairchild,P Channel MOSFET ,$0.52 ,$0.52 ,Mouser/Digikey/Newark,*,$0.14 ,100 ,$0.14 "C1, C3",2,FK18X5R1A475K,810-FK18X5R1A475K,TDK,4.7uF ceramic capacitor,$0.32 ,$0.64 ,Mouser/Digikey/Newark/Radioshack,*,$0.10 ,100 ,$0.20 C2,1,FK18X5R1E105K,810-FK18X5R1E105K,TDK,1uF ceramic capacitor,$0.28 ,$0.28 ,Mouser/Digikey/Newark/Radioshack,*,$0.09 ,100 ,$0.09 SOCKET,1,1-2199298-2,571-1-2199298-2,TE Connectivity,DIP Socket,$0.10 ,$0.10 ,Mouser/Digikey/Newark/Radioshack,*,$0.08 ,100 ,$0.08 "Q2, Q3",2,2N7002E,863-2N7002ET1G,ON Semi,N Channel MOSFET,$0.14 ,$0.28 ,Mouser/Digikey/Newark,*,$0.04 ,100 ,$0.08 RED,1,LTL2R3KRD-EM,859-LTL2R3KRD-EM,Lite-on,5mm Red LED,$0.08 ,$0.08 ,Mouser/Digikey/Newark/Radioshack,*,$0.06 ,100 ,$0.06 R1,1,MF1/4DC1000F,660-MF1/4DC1000F,KOA Speer,100 Kohm resistor,$0.06 ,$0.06 ,Mouser/Digikey/Newark/Radioshack,*,$0.04 ,100 ,$0.04 R2,1,MF1/4DC4700F,660-MF1/4DC4700F,KOA Speer,470 ohm resistor,$0.05 ,$0.05 ,Mouser/Digikey/Newark/Radioshack,*,$0.04 ,100 ,$0.04 R3,1,MF1/4DC2001F,660-MF1/4DC2001F,KOA Speer,2 Kohm resistor,$0.05 ,$0.05 ,Mouser/Digikey/Newark/Radioshack,*,$0.04 ,100 ,$0.04 GRAND TOTAL PER TINYBOT,,,,,,,$9.78 ,,,,,$6.42 ,,,,,,,,,,,,,*,Shipping from Mouser for 10 tinybots worth of supplies to the US is roughly 5.00,,,,,,,,,,
+,,,,,,,,,,Lots of 100 Robots (each),,
+PCB ID,Quant,Manufacturer Part #,Mouser #,Manufacturer,Description,Each,Total,Source,Shipping,Each,Min,Total
+N/A,1,LIR2450,NA,,3.6V 140mAh coin cell,$0.95 ,$0.95 ,Ebay (http://goo.gl/HYa7EU),Free,$0.95 ,10 ,$0.95 
+1068,1,1068,534-1068,Keystone,Vertical coin cell holder,$1.79 ,$1.79 ,Mouser,*,$1.60 ,100 ,$1.60 
+N/A,1,TinyBot 0.1,NA,dirtypcbs.com,PCB,$1.40 ,$1.40 ,Dirtypcbs.com,Free,$0.62 ,40 ,$0.62 
+N/A,1,ATTINY85,556-ATTINY85-20PU,Atmel,Microcontroller,$1.32 ,$1.32 ,Mouser/Digikey/Newark,*,$0.78 ,50 ,$0.78 
+MOTOR,2,9073,NA,Dowonsol,Pager type motor,$0.83 ,$1.66 ,Aliexpress (http://goo.gl/tIYG5n),Free,$0.64 ,50 ,$1.28 
+MCP,1,MCP73831,579-MCP73831T-2ACIOT,Microchip,Battery charge controller,$0.60 ,$0.60 ,Mouser/Digikey/Newark,*,$0.42 ,100 ,$0.42 
+Q1,1,NDS332P,512-NDS332P,Fairchild,P Channel MOSFET ,$0.52 ,$0.52 ,Mouser/Digikey/Newark,*,$0.14 ,100 ,$0.14 
+"C1, C3",2,FK18X5R1A475K,810-FK18X5R1A475K,TDK,4.7uF ceramic capacitor,$0.32 ,$0.64 ,Mouser/Digikey/Newark/Radioshack,*,$0.10 ,100 ,$0.20 
+C2,1,FK18X5R1E105K,810-FK18X5R1E105K,TDK,1uF ceramic capacitor,$0.28 ,$0.28 ,Mouser/Digikey/Newark/Radioshack,*,$0.09 ,100 ,$0.09 
+SOCKET,1,1-2199298-2,571-1-2199298-2,TE Connectivity,DIP Socket,$0.10 ,$0.10 ,Mouser/Digikey/Newark/Radioshack,*,$0.08 ,100 ,$0.08 
+"Q2, Q3",2,2N7002E,863-2N7002ET1G,ON Semi,N Channel MOSFET,$0.14 ,$0.28 ,Mouser/Digikey/Newark,*,$0.04 ,100 ,$0.08 
+RED,1,LTL2R3KRD-EM,859-LTL2R3KRD-EM,Lite-on,5mm Red LED,$0.08 ,$0.08 ,Mouser/Digikey/Newark/Radioshack,*,$0.06 ,100 ,$0.06 
+R1,1,MF1/4DC1000F,660-MF1/4DC1000F,KOA Speer,100 Kohm resistor,$0.06 ,$0.06 ,Mouser/Digikey/Newark/Radioshack,*,$0.04 ,100 ,$0.04 
+R2,1,MF1/4DC4700F,660-MF1/4DC4700F,KOA Speer,470 ohm resistor,$0.05 ,$0.05 ,Mouser/Digikey/Newark/Radioshack,*,$0.04 ,100 ,$0.04 
+R3,1,MF1/4DC1002F,660-MF1/4DC1002F,KOA Speer,10 Kohm resistor,$0.05 ,$0.05 ,Mouser/Digikey/Newark/Radioshack,*,$0.04 ,100 ,$0.04 
+GRAND TOTAL PER TINYBOT,,,,,,,$9.78 ,,,,,$6.42 
+,,,,,,,,,,,,
+,*,Shipping from Mouser for 10 tinybots worth of supplies to the US is roughly 5.00,,,,,,,,,,

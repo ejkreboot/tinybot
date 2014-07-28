@@ -8035,7 +8035,7 @@ FQP27P06 -
 <part name="GND10" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND11" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY3" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
-<part name="R3" library="rcl" deviceset="R-US_" device="0204/5" value="2K"/>
+<part name="R3" library="rcl" deviceset="R-US_" device="0204/5" value="10K"/>
 <part name="GND4" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C1" library="rcl" deviceset="C-US" device="025-025X050" value="4.7 uf"/>
 <part name="GND12" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
