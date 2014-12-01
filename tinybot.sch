@@ -10,15 +10,15 @@
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="10" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="10" fill="1" visible="no" active="no"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="16" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="15" fill="1" visible="no" active="no"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="16" fill="1" visible="no" active="no"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
@@ -45,7 +45,7 @@
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="14" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="14" fill="1" visible="no" active="no"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -7958,13 +7958,13 @@ FQP27P06 -
 <wire x1="5" y1="-2" x2="17" y2="-2" width="0.127" layer="21"/>
 <wire x1="17" y1="-2" x2="17" y2="5" width="0.127" layer="21"/>
 <wire x1="17" y1="5" x2="-16.5" y2="5" width="0.127" layer="21"/>
-<hole x="-10.3" y="2" drill="1.4"/>
-<hole x="10.3" y="2" drill="1.4"/>
-<pad name="NEG" x="0" y="-2.7" drill="0.6"/>
-<pad name="POS" x="15.73" y="2" drill="0.6"/>
-<text x="12.955" y="2.47" size="1.27" layer="25" font="vector">+V</text>
-<text x="0.67" y="-2.255" size="1.27" layer="25" font="vector">GND</text>
-<text x="-4.1" y="1.3" size="0.8128" layer="21" font="vector" ratio="7">KEYSTONE1068</text>
+<hole x="-10.3" y="2" drill="3.2"/>
+<hole x="10.3" y="2" drill="3.2"/>
+<pad name="NEG" x="0" y="-2.7" drill="1.5"/>
+<pad name="POS" x="15.73" y="2" drill="1.5"/>
+<text x="12.32" y="3.105" size="1.27" layer="25" font="vector">+V</text>
+<text x="-4.41" y="-1.62" size="1.27" layer="25" font="vector">GND</text>
+<text x="-6.64" y="1.935" size="1.27" layer="21" font="vector" ratio="12">KEYSTONE1068</text>
 </package>
 </packages>
 <symbols>
@@ -8021,8 +8021,8 @@ FQP27P06 -
 <part name="SUPPLY1" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="U2" library="SparkFun-DigitalIC" deviceset="ATTINY45" device="TINY85-20-DIP" value="TINY85-20-DIP"/>
 <part name="GND5" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="Q3" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCHANNEL" device="2N7002PW" value="2N7002PW"/>
-<part name="Q2" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCHANNEL" device="2N7002PW" value="2N7002PW"/>
+<part name="Q3" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCHANNEL" device="BSS138" value="2N7002PW"/>
+<part name="Q2" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCHANNEL" device="BSS138" value="2N7002PW"/>
 <part name="GND6" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND7" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LMOT1+" library="wirepad" deviceset="WIREPAD" device="SMD1,27-254"/>
@@ -8030,7 +8030,6 @@ FQP27P06 -
 <part name="RMOT-" library="wirepad" deviceset="WIREPAD" device="SMD1,27-254"/>
 <part name="RMOT+" library="wirepad" deviceset="WIREPAD" device="SMD1,27-254"/>
 <part name="U$1" library="keystone" deviceset="1068" device=""/>
-<part name="Q1" library="SparkFun-DiscreteSemi" deviceset="MOSFET-PCHANNEL" device=""/>
 <part name="R1" library="rcl" deviceset="R-US_" device="0204/5" value="100K"/>
 <part name="GND10" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND11" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -8040,6 +8039,7 @@ FQP27P06 -
 <part name="C1" library="rcl" deviceset="C-US" device="025-025X050" value="4.7 uf"/>
 <part name="GND12" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C2" library="rcl" deviceset="C-US" device="025-025X050" value="1 uf"/>
+<part name="Q1" library="SparkFun-DiscreteSemi" deviceset="MOSFET-PCHANNEL" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8081,9 +8081,6 @@ FQP27P06 -
 <instance part="U$1" gate="G$1" x="-78.74" y="-10.16" smashed="yes" rot="R90">
 <attribute name="VALUE" x="-75.946" y="-11.684" size="1.27" layer="96" rot="R90"/>
 </instance>
-<instance part="Q1" gate="G$1" x="-71.12" y="-7.62" smashed="yes" rot="R270">
-<attribute name="NAME" x="-69.85" y="-2.794" size="1.778" layer="95"/>
-</instance>
 <instance part="R1" gate="G$1" x="-96.52" y="-10.16" rot="R90"/>
 <instance part="GND10" gate="1" x="-78.74" y="-25.4"/>
 <instance part="GND11" gate="1" x="-96.52" y="-25.4"/>
@@ -8095,6 +8092,9 @@ FQP27P06 -
 <instance part="C2" gate="G$1" x="-72.39" y="-19.05" smashed="yes" rot="R90">
 <attribute name="NAME" x="-66.421" y="-16.256" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-69.469" y="-21.59" size="1.778" layer="96"/>
+</instance>
+<instance part="Q1" gate="G$1" x="-71.12" y="-7.62" smashed="yes" rot="R270">
+<attribute name="NAME" x="-67.818" y="-3.81" size="1.778" layer="95"/>
 </instance>
 </instances>
 <busses>
@@ -8174,11 +8174,6 @@ FQP27P06 -
 <junction x="-12.7" y="2.54"/>
 </segment>
 <segment>
-<pinref part="Q1" gate="G$1" pin="G"/>
-<wire x1="-71.12" y1="0" x2="-71.12" y2="17.78" width="0.1524" layer="91"/>
-<pinref part="SUPPLY3" gate="G$1" pin="5V"/>
-</segment>
-<segment>
 <pinref part="SUPPLY1" gate="G$1" pin="5V"/>
 <wire x1="-96.52" y1="17.78" x2="-96.52" y2="5.08" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="G$1" pin="VBUS"/>
@@ -8186,6 +8181,11 @@ FQP27P06 -
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="-96.52" y1="-5.08" x2="-96.52" y2="5.08" width="0.1524" layer="91"/>
 <junction x="-96.52" y="5.08"/>
+</segment>
+<segment>
+<pinref part="SUPPLY3" gate="G$1" pin="5V"/>
+<pinref part="Q1" gate="G$1" pin="G"/>
+<wire x1="-71.12" y1="17.78" x2="-71.12" y2="0" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -8209,20 +8209,13 @@ FQP27P06 -
 <pinref part="U$1" gate="G$1" pin="+"/>
 <wire x1="-58.42" y1="2.54" x2="-78.74" y2="2.54" width="0.1524" layer="91"/>
 <wire x1="-78.74" y1="-10.16" x2="-78.74" y2="-7.62" width="0.1524" layer="91"/>
-<pinref part="Q1" gate="G$1" pin="S"/>
-<wire x1="-78.74" y1="-7.62" x2="-78.74" y2="2.54" width="0.1524" layer="91"/>
-<wire x1="-76.2" y1="-7.62" x2="-78.74" y2="-7.62" width="0.1524" layer="91"/>
-<junction x="-78.74" y="-7.62"/>
 <pinref part="C1" gate="G$1" pin="1"/>
+<wire x1="-78.74" y1="-7.62" x2="-78.74" y2="2.54" width="0.1524" layer="91"/>
 <wire x1="-58.42" y1="2.54" x2="-58.42" y2="-2.54" width="0.1524" layer="91"/>
 <junction x="-58.42" y="2.54"/>
-</segment>
-</net>
-<net name="N$4" class="0">
-<segment>
-<pinref part="U2" gate="G$1" pin="PB0(MOSI)"/>
-<pinref part="Q3" gate="G$1" pin="G"/>
-<wire x1="-27.94" y1="-48.26" x2="7.62" y2="-48.26" width="0.1524" layer="91"/>
+<junction x="-78.74" y="-7.62"/>
+<pinref part="Q1" gate="G$1" pin="S"/>
+<wire x1="-78.74" y1="-7.62" x2="-76.2" y2="-7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -8289,8 +8282,6 @@ FQP27P06 -
 <pinref part="U2" gate="G$1" pin="VCC"/>
 <wire x1="-63.5" y1="-33.02" x2="-63.5" y2="-48.26" width="0.1524" layer="91"/>
 <wire x1="-63.5" y1="-48.26" x2="-55.88" y2="-48.26" width="0.1524" layer="91"/>
-<pinref part="Q1" gate="G$1" pin="D"/>
-<wire x1="-66.04" y1="-7.62" x2="-63.5" y2="-7.62" width="0.1524" layer="91"/>
 <wire x1="-63.5" y1="-7.62" x2="-63.5" y2="-19.05" width="0.1524" layer="91"/>
 <junction x="-63.5" y="-19.05"/>
 <pinref part="LMOT1+" gate="G$1" pin="P"/>
@@ -8303,6 +8294,8 @@ FQP27P06 -
 <wire x1="50.8" y1="-55.88" x2="50.8" y2="-33.02" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="-33.02" x2="27.94" y2="-33.02" width="0.1524" layer="91"/>
 <junction x="27.94" y="-33.02"/>
+<pinref part="Q1" gate="G$1" pin="D"/>
+<wire x1="-63.5" y1="-7.62" x2="-66.04" y2="-7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$15" class="0">
@@ -8311,6 +8304,13 @@ FQP27P06 -
 <wire x1="-43.18" y1="5.08" x2="-45.72" y2="5.08" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="-45.72" y1="5.08" x2="-45.72" y2="-10.16" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="PB0(MOSI)"/>
+<pinref part="Q3" gate="G$1" pin="G"/>
+<wire x1="-27.94" y1="-48.26" x2="7.62" y2="-48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
